@@ -1,6 +1,9 @@
 #include "Operario.h"
 void PrincipalMenu();
-int main()
+//En vez de usar 60000, 100000 y 80000. uso 60, 100, 80
+//Para usar los valores de dinero estipulados de la actividad, puede multiplicar por 1000 a los resultados
+
+int main()     
 {
     Operative Op[10];
     char Option = '0'; int Amount = 0, Aux = 0, AuxOp = 0; float Bonus = 0;
